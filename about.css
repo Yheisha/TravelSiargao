@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(images/svg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    width: 90%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+}
+
+nav .logo {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+nav .logo a {
+    text-decoration: none;
+    color: #72d4cf;
+    text-transform: uppercase;
+}
+
+nav .logo span {
+    font-size: 35px;
+    color: #035d58;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-top: 5px;
+    margin: 10px;
+    border-radius: 30px;
+    transition: 0.3s ease-in-out;
+}
+
+nav ul li a {
+    color: rgb(0, 46, 54);
+    font-size: 15px;
+    font-weight: 55000;
+    text-decoration: none;
+
+}
+
+nav ul li:hover {
+    background-color: #72d4cf;
+}
+
+.navbar .active {
+    background-color: #6dddd8;
+    padding: 2px 10px;
+}
+
+nav .navbar button{
+    padding: 2px 20px;
+    border-radius: 30px;
+    color: #a3eeea;
+    font-size: 16px;
+    border-style: none;
+    font-weight: 700;
+    margin-left: 100px;
+    background-color: #72d4cf;
+}
+
+nav .navbar button a {
+    color: #035d58;
+    text-decoration: none;
+}
+
+nav .navbar button:hover {
+    background-color: #a3eeea;
+    transition: 0.3s;
+}
+nav .navbar button a:hover {
+    color: rgb(0, 46, 54);
+    transition: 0.3s;
+}
+
+.know-btn {
+    margin-top: 10px;
+    margin-left: 555px;
+    padding: 5px 15px;
+    border-radius: 30px;
+    color: #a3eeea;
+    font-size: 18px;
+    border-style: none;
+    font-weight: 700;
+    background-color: #035d58;
+}
+
+.know-btn:hover {
+    background-color: #6dddd8;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.know-btn a {
+    text-decoration: none;
+    color: #72d4cf;
+}
+
+.know-btn a:hover {
+    color: #035d58;
+}
+
+.image-1 {
+    margin-top: 20px;
+}
+
+.about {
+    width: 40%;
+    float: left;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.about-img {
+    margin-bottom: 80px;
+    margin-top: 40px;
+    margin-right: 50px;
+    width: 50%;
+    float: right;
+}
+
+.about-img img{
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+    transition: 0.3s ease-in-out;
+}
+
+.about-img img:hover {
+    transform: scale(.9);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.why-content {
+    clear: both;
+    margin-left: 50px;
+}
+
+.why-content img {
+    width: 300px;
+    height: 180px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.why-content img:hover {
+    transform: scale(.9);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.why-content .image {
+    margin-top: 10px;
+    margin-left: 130px;
+}
+
+.why-content h2 {
+    margin-left: 410px;
+}
+
+.why-1 {
+    margin-left: 200px;
+    margin-top: 20px;
+    width: 68%;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    margin-top: 60px;
+    background-color: #6dddd8;
+    padding: 20px 0;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #035d58;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #035d58;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #035d58;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #0c9e97;
+    padding-left: 6px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #a3eeea;
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #035d58;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #a3eeea;
+    background-color: #035d58;
+}
